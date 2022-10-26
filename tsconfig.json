@@ -20,6 +20,7 @@
     "forceConsistentCasingInFileNames": true,
     "types": ["vite/client"],
     "paths": {
+      "~/*": ["src/*"],
       "~pages/*": ["src/pages/*"],
       "~assets/*": ["src/assets/*"],
       "~styles/*": ["src/styles/*"],
