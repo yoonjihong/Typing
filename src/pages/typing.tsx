@@ -28,6 +28,9 @@ const Typing = () => {
   const [key, setKey] = useState(0);
   const [input, setInput] = useState('');
 
+  // TODO 오타 입력시 현재 위치에 해당하는 문자열이 밀려나는 이펙트 구현
+  // TODO 현재 라인에 오타가 있을경우 다음줄로 넘어가지 못하게 하는 기능
+
   return (
     <TypingPageStyled>
       <div
