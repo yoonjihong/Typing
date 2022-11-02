@@ -30,3 +30,7 @@
 ## Vscode Typescript 에러
 종종 VsCode에서 typescript관련 에러가 생길때 아래 명령어로 해결
 `$ yarn dlx @yarnpkg/sdks vscode`
+
+
+## Style 자동완성 에러
+현재 style 자동완성이 안되는 문제가 있음
